@@ -12,7 +12,7 @@ const PORT = process.env.PORT;
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://luminous-cucurucho-f6f88a.netlify.app/",
     methods: ["POST", "GET"],
     credentials: true,
   })
