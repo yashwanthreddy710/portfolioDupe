@@ -10,7 +10,7 @@ const SendMail = () => {
     setStatus("Sending...");
 
     try {
-      const res = await fetch("http://localhost:5000/api/email/send-email", {
+      const res = await fetch("https://portfoliodupe.onrender.com/api/email/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
